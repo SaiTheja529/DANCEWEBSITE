@@ -1,0 +1,52 @@
+extends base.pug
+
+
+
+block scripts
+  script(src='/static/index.js')
+  
+
+
+block style 
+    style
+     include ../static/style.css
+
+block content 
+     
+     section#introSection 
+        div Welcome to Theja's Dance Academy 
+        div#div  Eat Sleep Dance Repeat
+     section#missionSection 
+        h2 Our Mission 
+        span#span
+            div.card
+                h3 Dance Perfection 
+                div.card-box
+                    .card-img 
+                        img(src="/static/logo.jpg", alt="oops")
+                    .card-content 
+                        p This is best dance academy in India
+            .card 
+                h3 Dance the way you like 
+                div.card-box
+                    .card-img 
+                        img(src="/static/logo.jpg", alt="oops")
+                    .card-content 
+                        p This is best dance academy in India
+            .card 
+                h3 Expert teaching
+                div.card-box
+                    .card-img 
+                        img(src="/static/logo.jpg", alt="oops")
+                    .card-content 
+                        p This is best dance academy in India
+     section#sponsorsSection
+         h2 Our Sponsors
+         #sponsors 
+            img(src="/static/sponsor1.jpeg", alt="cannot load" Class="spImage")
+            img(src="/static/sponsor2.png", alt="cannot load" Class="spImage")
+            img(src="/static/sponsor3.png", alt="cannot load" Class="spImage")
+            img(src="/static/sponsor4.jpeg", alt="cannot load" Class="spImage")
+     
+   
+   

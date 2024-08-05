@@ -1,0 +1,58 @@
+doctype html
+html
+  head
+    title Theja's Dance Academy
+    style
+      include ../static/style.css
+      <link href="">
+    
+  body
+    nav#navbar.top.firstClass.secondClass
+      ul
+         div#logo 
+            //- img(src="/static/logo.jpg", alt="not available")
+            img(src="/static/logo2.jpg")
+            | TDA 
+         li #[a(href="/") Home]
+         li #[a(href="/") About ]
+         li #[a(href="/") Services]
+         li #[a(href="/") Class info]
+         li #[a(href="/") Contact Us]
+    section#introSection 
+        div Welcome to Theja's Dance Academy 
+        div#div  Eat Sleep Dance Repeat
+    section#missionSection 
+        h2 Our Mission 
+        span#span
+            div.card
+                h3 Dance Perfection 
+                div.card-box
+                    .card-img 
+                        img(src="/static/logo.jpg", alt="oops")
+                    .card-content 
+                        p This is best dance academy in India
+            .card 
+                h3 Dance the way you like 
+                div.card-box
+                    .card-img 
+                        img(src="/static/logo.jpg", alt="oops")
+                    .card-content 
+                        p This is best dance academy in India
+            .card 
+                h3 Expert teaching
+                div.card-box
+                    .card-img 
+                        img(src="/static/logo.jpg", alt="oops")
+                    .card-content 
+                        p This is best dance academy in India
+    section#sponsorsSection
+         h2 Our Sponsors
+         #sponsors 
+            img(src="/static/sponsor1.jpeg", alt="cannot load" Class="spImage")
+            img(src="/static/sponsor2.png", alt="cannot load" Class="spImage")
+            img(src="/static/sponsor3.png", alt="cannot load" Class="spImage")
+            img(src="/static/sponsor4.jpeg", alt="cannot load" Class="spImage")
+    footer#footer 
+            | Copyright &copy; 2024 ThejaDanceacademy.com  All rights reserved
+    script
+      include ../static/index.js
